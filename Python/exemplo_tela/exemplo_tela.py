@@ -2,17 +2,21 @@ import requests
 from tkinter import Tk, Label, Button
 
 
+URL = "https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL,JPY-BRL"
+
+
 def extrair_cotacoes():
-    requisicao = requests.get(
-        "https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL")
+    requisicao = requests.get(URL)
     cotacoes = requisicao.json()
     cotacao_dolar = cotacoes['USDBRL']['bid']
     cotacao_euro = cotacoes['EURBRL']['bid']
     cotacao_bitcoin = cotacoes['BTCBRL']['bid']
+    cotacao_iene = cotacoes['JPYBRL']['bid']
     resposta = f'''
     Dólar: R$ {cotacao_dolar}
     Euro: R$ {cotacao_euro}
     Bitcoin: R$ {cotacao_bitcoin}
+    Iene: R$ {cotacao_iene}
     '''
     texto_cotacoes['text'] = resposta
 

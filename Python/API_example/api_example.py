@@ -11,13 +11,13 @@ def extrair_cotacoes():
     cotacao_euro = cotacoes['EURBRL']['bid']
     cotacao_bitcoin = cotacoes['BTCBRL']['bid']
 
-    texto = f'''
+    resposta = f'''
     Dólar: R$ {cotacao_dolar}
     Euro: R$ {cotacao_euro}
     Bitcoin: R$ {cotacao_bitcoin}
     '''
 
-    print(texto)
+    print(resposta)
 
 
 extrair_cotacoes()

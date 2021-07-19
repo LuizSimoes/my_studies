@@ -4,8 +4,8 @@
 <img src="https://github.com/LuizSimoes/my_studies/blob/master/monkey-typing.gif">
 
 ## Banco de Dados
-## Javascript
 ## <img align="left" width="80" height="80" src="https://github.com/LuizSimoes/my_studies/blob/master/imgs/js6.png">
-## Python - Contém alguns módulos desenvolvidos durante o estudo de Python
+## Javascript
 ## <img align="left" width="80" height="80" src="https://github.com/LuizSimoes/my_studies/blob/master/imgs/python.png">
+## Python - Contém alguns módulos desenvolvidos durante o estudo de Python
 ## Outros - Deamis temas como microcontroladores, mobile

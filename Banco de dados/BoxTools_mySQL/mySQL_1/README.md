@@ -1,5 +1,5 @@
-# Desafios de mySQL propostos no curso da Trybe
-Essas queries são interessants para consulta futura.
+# Desafios de mySQL
+Essas queries para consulta futura.
 
 # Bancos de dados utilizados
 (northwind). Script no diretório DUMP

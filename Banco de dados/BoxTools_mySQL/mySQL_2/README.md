@@ -1,4 +1,4 @@
-# Desafios de mySQL propostos no curso da Trybe
+# Desafios de mySQL
 Essas queries são interessants para consulta futura.
 
 # Bancos de dados utilizados
